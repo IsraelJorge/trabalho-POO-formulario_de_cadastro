@@ -1,6 +1,4 @@
-﻿package com.mycompany.formulario;
-
-import javax.swing.*;
+﻿import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -131,8 +129,8 @@ public class Formulario extends JFrame implements ActionListener{
                 limparCampos();
             }else{
                 JOptionPane.showMessageDialog(null, 
-                    "Preencha todos os campos.", 
-                    "Campo Vazio", 
+                    "Selecione um Cadastro para deletar.", 
+                    "Nenhum Cadastro selecionado", 
                     JOptionPane.INFORMATION_MESSAGE); 
             
             }
